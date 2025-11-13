@@ -11,4 +11,18 @@
 }
 #box1{
    justify-content: space-evenly; 
+   background: rgb(109, 2, 155);
+}
+#box2, #box3, #box4{
+    justify-content:center;
+}
+#box3{
+  background:rgb(212, 165, 234);  
+}
+#box4{
+    
+}
+#innerbox4{
+    justify-content: space-around;
+    background: rgb(182, 92, 221);
 }
