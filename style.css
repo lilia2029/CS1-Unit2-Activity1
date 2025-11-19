@@ -1,3 +1,7 @@
+
+body{
+    background: rgb(136, 87, 154);
+}
 .flexbox{
     display: flex;
     border: 2px solid rgb(181, 108, 238);
@@ -11,7 +15,7 @@
 }
 #box1{
    justify-content: space-evenly; 
-   background: rgb(109, 2, 155);
+   background: rgb(93, 7, 133);
 }
 #box2, #box3, #box4{
     justify-content:center;
@@ -25,4 +29,27 @@
 #innerbox4{
     justify-content: space-around;
     background: rgb(182, 92, 221);
+}
+h1{
+    color:rgb(208, 225, 240);
+}
+p{
+    color:azure;
+}
+button{
+    padding: 5px;
+    background: linear-gradient(rgb(214, 55, 209), plum);
+    border-radius: 20%;
+    border: 2 solid purple;
+    color:azure;
+}
+button:hover{
+    padding: 5px;
+    background: linear-gradient(rgb(215, 30, 209), rgb(160, 221, 209));
+    border-radius: 20%;
+    border: 2 solid purple;
+    color:azure;
+img{
+    border: 5px dotted rgb(255, 255, 186); 
+    border-radius: 20%;
 }
